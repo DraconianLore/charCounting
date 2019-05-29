@@ -1,7 +1,7 @@
 function countLetters(toCount) {
   var counting = toCount.split(" ").join("");
   var letterObject = {};
-  for (letters of counting) {
+  for (let letters of counting) {
     if (letterObject[letters]) {
       letterObject[letters] += 1;
     }else {
@@ -11,11 +11,6 @@ function countLetters(toCount) {
   console.log(letterObject);
 
 }
-
-
-
-
-
 
 
 
